@@ -1,6 +1,12 @@
 # CI-CD-Pipeline-Automation
 ENSF 400 - Course Project
 
+Team members:
+- Sachin Seizer
+- Matthew McDougall 
+- Brendan SMILEY
+- Luca Rios
+
 ## GitHub Repository & Git Workflow (15%)
 ❗ TODO ❗ 
 ## Containerization (20%)
