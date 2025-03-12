@@ -8,7 +8,8 @@ Team members:
 - Luca Rios
 
 ## GitHub Repository & Git Workflow (15%)
-❗ TODO ❗ 
+For our github workflow, we created rules to ensure branch protections.  Those rules include not allowing collaborators to commit changes directly to main and requiring a reviewer for each pull request.
+
 ## Containerization (20%)
 ❗ TODO ❗ 
 ## CI/CD Pipeline Automation (40%)
