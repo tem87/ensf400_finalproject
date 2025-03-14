@@ -2,11 +2,13 @@
     "name": "Java 8 Development Container",
     "image": "mcr.microsoft.com/vscode/devcontainers/java:0-8",
     "settings": {
-      "java.home": "/usr/local/openjdk-8"
+        "java.home": "/usr/local/openjdk-8"
     },
     "extensions": [
-      "vscjava.vscode-java-pack"
+        "vscjava.vscode-java-pack"
     ],
-    "postCreateCommand": "java -version"
-  }
-  
+    "postCreateCommand": "java -version",
+    "features": {
+        "docker-in-docker": "latest"
+    }
+}
