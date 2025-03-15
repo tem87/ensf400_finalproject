@@ -6,13 +6,8 @@ COPY . .
 # Download dependencies
 RUN gradle dependencies --no-daemon
 
-# Copy the rest of the project files
-
 # Build the project
 RUN gradle build --no-daemon
-
-RUN ./gradlew clean build
-
 
 FROM tomcat:9.0.48-jdk11
 WORKDIR /usr/local/tomcat/webapps/
