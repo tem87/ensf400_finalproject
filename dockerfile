@@ -1,4 +1,4 @@
-FROM gradle:7.0.0-jdk11 AS builder
+FROM gradle:7.6.0-jdk11 AS builder
 WORKDIR /app
 
 # Copy Gradle-specific files first (for better caching)
