@@ -1,3 +1,5 @@
+# Before building image run command: ./gradlew clean build 
+
 FROM gradle:7.6.0-jdk11 AS builder
 WORKDIR /app
 
